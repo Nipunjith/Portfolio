@@ -47,10 +47,17 @@ body{
   padding-right: 300px;
 
 }
-.proCards{
+/* .proCards{
   padding: 0px;
   width: 300px;
   height: 30px;
   position: relative;
   float: right;
+} */
+.proBars{
+  padding: 0px;
+  width: 300px;
+  height: 30px;
+  position: relative;
+  float: left;
 }
