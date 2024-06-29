@@ -45,8 +45,8 @@ body{
 #description{
   color: aliceblue;
   text-align: center;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
   background-color: black;
   position: fixed;
   z-index: 2;
@@ -70,5 +70,5 @@ vertical-align: top;
   margin: 30px;
 text-align: center;
 position: relative;
-top: 180px;
+top: 170px;
 }
