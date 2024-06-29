@@ -19,6 +19,8 @@ body{
 }
 #spacer{
   height: 20px;
+  background-color: black;
+  z-index: 3;
 }
 #mainText{
   text-align: center;
@@ -45,19 +47,28 @@ body{
   text-align: center;
   padding-left: 300px;
   padding-right: 300px;
+  background-color: black;
+  position: fixed;
+  z-index: 2;
+  margin-top: 0;
 
 }
-/* .proCards{
-  padding: 0px;
-  width: 300px;
+.proCards{
+
+display: inline-block;
+vertical-align: top;
+  padding: 20px;
+  width: 500px;
   height: 30px;
-  position: relative;
-  float: right;
-} */
+
+}
 .proBars{
+
   padding: 0px;
   width: 300px;
   height: 30px;
-  position: relative;
-  float: left;
+  margin: 30px;
+text-align: center;
+position: relative;
+top: 180px;
 }
